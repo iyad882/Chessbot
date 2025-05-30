@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+ه#!/usr/bin/env python3
 """
 Telegram Bot with Admin Functionality
 Main bot application file that initializes the bot and registers handlers
@@ -126,4 +126,18 @@ async def main():
         raise
 
 if __name__ == "__main__":
+    import threading
+import socket
+
+# فتح منفذ وهمي لإرضاء Render
+def fake_web_server():
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.bind(('0.0.0.0', 10000))  # منفذ وهمي
+    s.listen(1)
+    while True:
+        conn, addr = s.accept()
+        conn.send(b'HTTP/1.1 200 OK\n\nHello from Telegram bot!')
+        conn.close()
+
+threading.Thread(target=fake_web_server, daemon=True).start()
     asyncio.run(main())
