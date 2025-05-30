@@ -1,0 +1,7 @@
+0000000000000000000000000000000000000000 fc5ba136f6945b777d1f1ee910400953d5cbabbc iyad88227 <43294750-iyad88227@users.noreply.replit.com> 1748595357 +0000	commit (initial): Initial commit
+fc5ba136f6945b777d1f1ee910400953d5cbabbc e9c7b45e6c856cccd7f5c8f96bbd7907939b41d3 iyad88227 <43294750-iyad88227@users.noreply.replit.com> 1748595357 +0000	commit: Started building your app
+e9c7b45e6c856cccd7f5c8f96bbd7907939b41d3 ae90bf95e3e3730ccaa39372db6a38db6a37c87e iyad88227 <43294750-iyad88227@users.noreply.replit.com> 1748595553 +0000	commit: Implement admin controls for Telegram bot with user management tools
+ae90bf95e3e3730ccaa39372db6a38db6a37c87e 13bb7469267b230794c880af1b9ba2e09c3bdd0c iyad88227 <43294750-iyad88227@users.noreply.replit.com> 1748595754 +0000	commit: Update the bot's messages to support Arabic language for wider accessibility
+13bb7469267b230794c880af1b9ba2e09c3bdd0c 2234ed2d180ad5e8d32a7a00e994248e222d9599 iyad88227 <43294750-iyad88227@users.noreply.replit.com> 1748595909 +0000	commit: Make the bot interface available in Arabic and add a new admin user
+2234ed2d180ad5e8d32a7a00e994248e222d9599 e6106faf1a3141ecc4800c6bb4dc7cd8698f2859 iyad88227 <43294750-iyad88227@users.noreply.replit.com> 1748596321 +0000	commit: Add user Lichess account verification and set initial balance for new users
+e6106faf1a3141ecc4800c6bb4dc7cd8698f2859 5c61c2dc34430a1005b818ad4fe8229bab7f5981 iyad88227 <43294750-iyad88227@users.noreply.replit.com> 1748596486 +0000	commit: Show user's Telegram, Lichess accounts, and balance in the bot interface
