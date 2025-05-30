@@ -1,0 +1,9 @@
+{
+  "admin_ids": [5588348414],
+  "banned_users": [],
+  "bot_settings": {
+    "welcome_message": "مرحباً بك في البوت! استخدم /help لرؤية الأوامر المتاحة.",
+    "admin_only_message": "❌ هذا الأمر متاح للمديرين فقط.",
+    "max_broadcast_length": 4000
+  }
+}
