@@ -1,4 +1,4 @@
-ه#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Telegram Bot with Admin Functionality
 Main bot application file that initializes the bot and registers handlers
