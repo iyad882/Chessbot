@@ -3,6 +3,20 @@ User command handlers for the Telegram bot
 Handles commands available to all users
 """
 
+from telegram import Update
+from telegram.ext import CommandHandler, ContextTypes
+
+class UserHandlers:
+    def __init__(self, application):
+        self.application = application
+
+    def register(self, app=None):
+        app = app or self.application
+        app.add_handler(CommandHandler("start", self.start))
+
+    async def start(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
+        await update.message.reply_text("مرحبًا! أنا بوت الشطرنج. 🏁")
+        
 import json
 import logging
 import os
